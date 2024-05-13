@@ -1,0 +1,7 @@
+1. High Monthly Returns in New York: New York shows a significant monthly return, with the current month-to-date (MTD) value being 9,925 in the local currency (presumably Euro) and a substantial increase (ΔEOM Trend - PM) of +14,748 compared to the previous month (PM).
+
+2. Positive Weekly Trends in Three States: Ohio, Pennsylvania, and Texas are experiencing positive weekly trends. Ohio has the highest increase of +1,289, followed by Pennsylvania with +1,145, and Texas with a +1,189 increase from the previous week (PW).
+
+3. Daily Returns Fluctuations: On the daily returns front, Arizona and Kentucky show a complete reversal of the previous week's returns (PW) with -1,426 and -1,262, respectively. Conversely, California and New Jersey have seen an increase in returns compared to PW, with +1,267 and +469, respectively.
+
+4. Monthly Decrease in Nevada and Missouri: Both Nevada and Missouri have witnessed a notable decrease in returns in the current month, with Nevada showing a monthly trend decrease (ΔEOM Trend - PM) of -4,815 and Missouri with -2,683.
