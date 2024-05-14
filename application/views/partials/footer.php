@@ -1,37 +1,104 @@
 <!-- Countdown Timer -->
 <div id="countdown"></div>
 
+<!-- Button Pause and Run -->
+<div id="pauseRunButtonContainer">
+    <div id="pauseRunButton"><i class="fa-solid fa-circle-pause"></i></div>
+</div>
+
+
+
 <!-- Menambahkan Bootstrap JS (opsional) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
-<script>
+<!-- <script>
     $(document).ready(function() {
         var remainingSeconds = 6; // Ubah waktu timer menjadi 6 detik
         var countdownInterval;
+        var isPaused = false;
 
         function startCountdown() {
             var countdownElement = document.getElementById('countdown');
             var currentSeconds = remainingSeconds;
 
             countdownInterval = setInterval(function() {
-                countdownElement.innerHTML = '<div class="countdown-badge">' + currentSeconds + '</div>';
-                currentSeconds--;
+                if (!isPaused) {
+                    countdownElement.innerHTML = '<div class="countdown-badge">' + currentSeconds + '</div>';
+                    currentSeconds--;
 
-                if (currentSeconds < 0) {
-                    clearInterval(countdownInterval);
-                    var currentSlideIndex = $('.carousel-item.active').index();
-                    var totalSlides = $('.carousel-item').length;
-                    var nextSlideIndex = (currentSlideIndex + 1) % totalSlides;
+                    if (currentSeconds < 0) {
+                        clearInterval(countdownInterval);
+                        var currentSlideIndex = $('.carousel-item.active').index();
+                        var totalSlides = $('.carousel-item').length;
+                        var nextSlideIndex = (currentSlideIndex + 1) % totalSlides;
 
-                    // Memastikan perubahan slide terjadi setelah countdown mencapai 0
-                    setTimeout(function() {
-                        $('#carouselExampleControls').carousel(nextSlideIndex);
-                    }, 1000);
+                        // Memastikan perubahan slide terjadi setelah countdown mencapai 0
+                        setTimeout(function() {
+                            $('#carouselExampleControls').carousel(nextSlideIndex);
+                            startCountdown(); // Mulai ulang countdown setelah pergantian slide
+                        }, 1000);
 
-                    remainingSeconds = 6; // Reset timer ke 6 detik setelah mencapai nol
+                        remainingSeconds = 6; // Reset timer ke 6 detik setelah mencapai nol
+                    }
+                }
+            }, 1000);
+        }
+
+        $('#pauseRunButton').on('click', function() {
+            isPaused = !isPaused; // Toggle isPaused
+            var buttonText = isPaused ? 'Run' : 'Pause';
+            $(this).text(buttonText);
+        });
+
+        $('#carouselExampleControls').on('slid.bs.carousel', function(event) {
+            var totalSlides = $('.carousel-item').length;
+            var currentSlide = $(this).find('.carousel-item.active').index() + 1;
+            clearInterval(countdownInterval);
+            startCountdown();
+            updateSlideInfo(currentSlide, totalSlides);
+
+            // Check if current slide is the first slide
+            if (currentSlide === 1) {
+                reloadSlideData(); // Reload data if it's the first slide
+            }
+        });
+
+        startCountdown();
+        updateSlideInfo(1, $('.carousel-item').length);
+    });
+</script> -->
+
+<script>
+    $(document).ready(function() {
+        var remainingSeconds = 6; // Ubah waktu timer menjadi 6 detik
+        var countdownInterval;
+        var isPaused = false;
+
+        function startCountdown() {
+            var countdownElement = document.getElementById('countdown');
+            var currentSeconds = remainingSeconds;
+
+            countdownInterval = setInterval(function() {
+                if (!isPaused) {
+                    countdownElement.innerHTML = '<div class="countdown-badge">' + currentSeconds + '</div>';
+                    currentSeconds--;
+
+                    if (currentSeconds < 0) {
+                        clearInterval(countdownInterval);
+                        var currentSlideIndex = $('.carousel-item.active').index();
+                        var totalSlides = $('.carousel-item').length;
+                        var nextSlideIndex = (currentSlideIndex + 1) % totalSlides;
+
+                        // Memastikan perubahan slide terjadi setelah countdown mencapai 0
+                        setTimeout(function() {
+                            $('#carouselExampleControls').carousel(nextSlideIndex);
+                            startCountdown(); // Mulai ulang countdown setelah pergantian slide
+                        }, 1000);
+
+                        remainingSeconds = 6; // Reset timer ke 6 detik setelah mencapai nol
+                    }
                 }
             }, 1000);
         }
@@ -40,6 +107,12 @@
             var slideInfoElement = document.getElementById('slide-info');
             slideInfoElement.textContent = 'Slide ' + currentSlide + ' of ' + totalSlides;
         }
+
+        $('#pauseRunButton').on('click', function() {
+            isPaused = !isPaused; // Toggle isPaused
+            var buttonIcon = isPaused ? '<i class="fa-solid fa-circle-play"></i>' : '<i class="fa-solid fa-circle-pause"></i>';
+            $(this).html(buttonIcon);
+        });
 
         function reloadSlideData() {
             // Simulate page refresh with a loader
@@ -97,6 +170,20 @@
     });
 </script>
 
+
+<script>
+    // Evenet listener untuk mendeteksi slide dengan tombol panah
+    $(document).keydown(function(e) {
+        // periksa jika tombol panah kanan ditekan
+        if (e.key === "ArrowRight") {
+            // Panggil fungsi untuk menampilkan slide berikutnya
+            $('#carouselExampleControls').carousel('next');
+        } else if (e.key === "ArrowLeft") {
+            // Panggil fungsi untuk menampilkan slide sebelumnya
+            $('#carouselExampleControls').carousel('prev');
+        }
+    });
+</script>
 
 
 </body>

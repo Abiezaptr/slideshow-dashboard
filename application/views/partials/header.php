@@ -34,6 +34,11 @@
             position: relative;
         }
 
+        .insight-container br {
+            margin-bottom: 8px;
+            /* Atur jarak antar paragraf sesuai kebutuhan */
+        }
+
         .loader {
             border: 4px dashed #f3f3f3;
             border-top: 4px dashed #3498db;
@@ -78,6 +83,24 @@
             font-size: 16px;
             color: maroon;
         }
+
+        #pauseRunButtonContainer {
+            position: absolute;
+            top: 10px;
+            /* Mengatur tombol pause dan run di atas */
+            right: 10px;
+            /* Mengatur tombol pause dan run di sisi kanan */
+        }
+
+        #pauseRunButton {
+            width: 40px;
+            /* Atur lebar tombol */
+            height: 40px;
+            /* Atur tinggi tombol */
+            font-size: 30px;
+            /* Menambahkan ukuran font tombol */
+        }
+
 
         .countdown-badge {
             width: 30px;
