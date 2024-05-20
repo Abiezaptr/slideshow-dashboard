@@ -1,3 +1,0 @@
-1. Sales Decrease: The overview shows a decrease in total sales (in €) from the previous week and month. The 'Sales (in €)' section at the top left indicates that sales are down by 6.1K compared to the previous week (APW), and the monthly total sales are also down by 68.5K compared to the plan (PL). 
-
-2. Cell Phones Category Spike: Under 'Sales (in €) by Product Category', Cell Phones stand out with a significant increase in daily sales (up 4,893) and a weekly increase of 10,821 compared to the previous week, bucking the general downward trend observed in other categories. 

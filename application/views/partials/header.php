@@ -149,24 +149,9 @@
             margin-left: 10px;
         }
 
-        /* Mengatur agar tombol next dan prev berada di tengah secara horizontal */
         .carousel-control {
             justify-content: center;
         }
-
-        /* Mengubah warna ikon next dan prev menjadi hitam */
-        /* .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            background-color: black;
-            border: none;
-            color: black;
-        } */
-
-        /* Mengubah warna ikon next dan prev saat dihover */
-        /* .carousel-control-prev:hover,
-        .carousel-control-next:hover {
-            color: white;
-        } */
 
         .position-relative {
             position: relative;
@@ -191,10 +176,8 @@
 
         .carousel-item {
             padding: 20px;
-            /* Menambahkan padding di sekitar gambar */
         }
 
-        /* CSS untuk menyembunyikan gambar saat dimuat dan hanya menampilkan loader */
         .image-container img {
             display: none;
         }

@@ -1,0 +1,9 @@
+1. Customer Base Distribution: The pie chart at the top left indicates that out of a total customer base of 160 million, 47.8% are video users and 52.2% are non-video users. This suggests that nearly half of the customer base actively uses video services. 
+
+2. Growth in Video Users: The Summary Video User section shows that the number of video users grew from 69.3 million in the previous month to 76.5 million in the current month, which represents a month-over-month growth of 10.3%. 
+
+3. Platform Usage: The biggest platforms by user count are YouTube with 71.6 million users, followed by TikTok with 67.4 million. For video payload (presumably data usage), TikTok leads with 80.15 PB while YouTube has a payload of 42.0 PB, indicating that TikTok users may be consuming more data on average. 
+
+4. Daily Trends: The Trend Daily User graph at the bottom shows fluctuations in the number of daily video users throughout the month, with a peak of 53.3 million users near the end of the month. This could indicate variable engagement with video services on a day-to-day basis. It's worth noting that these insights are derived from a snapshot in time (15-May-24), and the extrapolated payload figures suggest an estimation beyond the actual data recorded.
+
+5. Growth Metrics: The MTD user growth for the current month shows a 10.3% increase, rising from 69.3 million in the previous month to 76.5 million. Among the video services, YouTube user count grew by 11.6%, while TikTok saw an even higher percentage growth of 10.5%. For video payload, Netflix shows a substantial growth rate of 38.7%. 

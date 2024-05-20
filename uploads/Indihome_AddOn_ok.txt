@@ -1,0 +1,5 @@
+1. Revenue and Transactions Trends: The image shows a slight decline in projected revenue (Revenue Proj.) for May 2024, at 2.19 Billion IDR, representing a 0.7% decrease month-over-month. However, there has been a substantial increase in transactions (53.65K Transactions), up 13.9% compared to the previous month. 
+
+2. Monthly and Quarterly Performance: There is a decrease in the Monthly Revenue Profile Trend year-over-year (YoY) by 44% and month-over-month (MoM) by 1%. The Revenue Outlook Profile also indicates a significant YoY decrease of 46%, although the MoM figure remains stable at 0%. On the other hand, the first quarter (Q1) report shows a revenue figure of 0.66 Billion IDR and 10.22K transactions—signifying a past quarter's performance. 
+
+3. Churn Analysis: The Churn Profile Add On section of the image offers insight into customer retention and loss for different types of add-on services. For example, it shows that the Mini Package has a churn rate of 2.8%, which is higher than other services like OTT Video and Langit Musik. These pie charts help to visualize which areas may require strategic improvements to reduce customer churn rates. 

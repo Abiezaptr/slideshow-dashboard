@@ -1,0 +1,5 @@
+1. User Distribution: The Games Users Trend shows that out of a total customer base of 160 million (Mn), 62.6 million are games users, which represents approximately 39.1% of the total. Within this subset of gaming users, there is a further breakdown between those who are only playing games (59.3 million) and those who are paying for games (3.3 million). 
+
+2. Monthly Trends: When comparing the current month data to the previous month, there is a 5.7% Month on Month (MoM) growth in the mid-month games users, indicating an increasing trend in the number of users engaged in gaming. 
+
+3. Games Revenue and Payload: There is a noticeable decrease in both revenue (down 20.3% MoM to 105.3 billion) and data payload for games (down 50.9% MoM to 5.4 Petabytes (PB)). This suggests that while the number of users might be increasing, the revenue generated and the data consumed by gaming is decreasing. 
