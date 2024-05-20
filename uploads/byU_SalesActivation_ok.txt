@@ -1,15 +1,7 @@
-### Key Points and Insights:
+1. Overall Performance: The total Absolute Revenue (Absolut Rev) for all areas is 5.65 billion (Bn) with a Month-over-Month Revenue (MoM Rev) increase of 91.20%. However, they are significantly behind their target with a gap of 49.44 Bn, and their daily gap to target is also in the negative, at -3.53 Bn. 
 
-1. **Overall Performance Shortfall**:
-   - Despite a high overall Month-over-Month (MoM) revenue growth of 91.20%, the total achievement is only 10.25% of the target, indicating a significant gap of 49.44 billion from the target.
+2. Individual Area Performance: AREA 1 has shown the highest Month-over-Month Revenue growth at 141.37%, while AREA 4 has the lowest growth at 67.05%. However, all areas are below their target (Target Bn) with AREA 2 having the highest gap to target at -20.57 Bn. 
 
-2. **Significant Regional Disparities**:
-   - Regions like SUMBAGSEL (509.28% MoM growth, 33.77% target achievement) and JATENG (182.49% MoM growth, 15.44% target achievement) show strong growth.
-   - Conversely, regions like JATIM (-53.65% MoM growth, 3.13% target achievement) and PUMA (-95.36% MoM growth, 0.64% target achievement) are underperforming.
+3. Region-Specific Insights: The region of KALIMANTAN has the highest MoM Revenue growth at 224.39% and a moderate achievement of 20.71% of its target. On the other hand, the region of SUMAGSEL shows a strong performance with a 509.21% MoM Revenue growth. 
 
-3. **Diverse City Archetype Performance**:
-   - JAVA FORTRESS exceeds its target with 125.37% achievement and 30.20% MoM growth.
-   - Other archetypes, such as JAVA COMPETE (-61.67% MoM growth, 7.97% target achievement) and EX-JAVA SUPER FORTRESS (-96.31% MoM growth, 3.48% target achievement), are notably underperforming.
-
-4. **High Transaction Growth**:
-   - The total number of transactions saw a significant MoM growth of 97.83%, suggesting increased customer engagement despite the revenue-target gap.
+4. City Archetype Performance: The city archetype JAVA FORTRESS has achieved more than its target (% Ach stands at 125.37%) and has a positive MoM Revenue increase of 30.20%. In contrast, JAVA SUPREME FORTRESS shows a significant decline in MoM Revenue (-56.31%) and is far below its target, with a gap to target of -56.27 Bn. These insights depict a mixed picture of growth and challenges across different areas and city archetypes within the by.U organization.
