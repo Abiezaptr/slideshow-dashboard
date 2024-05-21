@@ -15,10 +15,9 @@
 
             function formatInsight($content)
             {
-                $content = preg_replace('/(^|\s)(\d+\.\s)/', '$1<span class="text-primary">$2</span>', $content);
+                $content = preg_replace('/(\d+\.\s)/', '<span class="text-primary">$1</span>', $content);
 
                 $patterns = [
-                    '/(^|\s)(\d+\.\s)/' => '$1<span class="text-primary">$2</span>',
                     '/(\b\d{1,3}(?:,\d{3})*(?:\.\d+)?\b)/' => '<strong>$1</strong>',
                     '/(€\s?\d+(?:,\d{3})*(?:\.\d+)?)/' => '<strong>$1</strong>',
                     '/(\$\d+(?:,\d{3})*(?:\.\d+)?(?:\s*million|\s*billion|\s*thousand)*)/i' => '<strong>$1</strong>',
@@ -61,16 +60,24 @@
                 // Tambahkan pola untuk nama bulan ke dalam array patterns
                 $patterns[$monthsPattern] = '<strong>$1</strong>';
 
+                // Buat pola regex untuk tahun (format: 4 digit) yang terpisah oleh batas kata
+                $yearPattern = '/\b(\d{4})(?=\b)/';
+
+                // Tambahkan pola untuk tahun ke dalam array patterns
+                $patterns[$yearPattern] = '<strong>$1</strong>';
+
+                // Pola untuk tahun yang tidak diikuti oleh karakter lain di sebelah kanannya
+                $yearPatternNoSuffix = '/(\d{4})(?![\d])/';
+
+                // Tambahkan pola untuk tahun yang tidak diikuti oleh karakter lain ke dalam array patterns
+                $patterns[$yearPatternNoSuffix] = '<strong>$1</strong>';
+
                 foreach ($patterns as $pattern => $replacement) {
-                    $content = preg_replace_callback($pattern, function ($matches) {
-                        return '<strong>' . strtoupper($matches[0]) . '</strong>';
-                    }, $content);
+                    $content = preg_replace($pattern, $replacement, $content);
                 }
 
                 return $content;
             }
-
-
 
             foreach ($files as $index => $file) {
                 if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) {

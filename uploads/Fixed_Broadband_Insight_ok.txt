@@ -1,7 +1,7 @@
-1. The dashboard indicates there were 7,544,039 active users with a ratio to CB (customer base) of 84.0% as of 19 May 2024. 
+1. The dashboard indicates there were 7,544,039 active users with a ratio to CB (customer base) of 84.0% as of 19 May 2024
 
-2. The average revenue per user (ARPU) is shown with ARPU - All being 237,244 and ARPU - RGB at 282,296 for the period ending 30 April 2024. 
+2. The average revenue per user (ARPU) is shown with ARPU - All being 237,244 and ARPU - RGB at 282,296 for the period ending 30 April 2024
 
 3. Sales for the month to date (MTD) are at 91,819, with an average daily sale of 4,833, and there's a net addition of 78,954 users for the current period. 
 
-4. The bottom section lists regional performance indicating customer base, sales, share, and churn for different regions, with varied percentages in churn APS MTD May-24 such as SUMBAGUT at 50.1% and JATENG-DIY at 65.6%.
+4. The bottom section lists regional performance indicating customer base, sales, share, and churn for different regions, with varied percentages in churn APS MTD May 24 such as SUMBAGUT at 50.1% and JATENG-DIY at 65.6%.
