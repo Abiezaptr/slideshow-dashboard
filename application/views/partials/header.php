@@ -99,14 +99,15 @@
             height: 40px;
             /* Atur tinggi tombol */
             font-size: 30px;
+            color: gray;
             /* Menambahkan ukuran font tombol */
         }
 
         .countdown-badge {
             width: 30px;
             height: 30px;
-            border-radius: 15px;
-            background-color: black;
+            border-radius: 13px;
+            background-color: gray;
             color: white;
             font-size: 16px;
             text-align: center;
@@ -120,8 +121,8 @@
             /* Mengatur posisi di pojok bawah halaman */
             left: 30px;
             /* Mengatur posisi di pojok kiri halaman */
-            font-size: 16px;
-            color: black;
+            font-size: 14px;
+            color: gray;
             font-weight: medium;
         }
 
