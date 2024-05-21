@@ -1,7 +1,7 @@
-1. Overall Performance Fluctuation: The dashboard shows a mix of positive and negative growth across different metrics. For example, while some areas and regions exhibit growth in new sales (e.g., AREA 3 and AREA 4 show positive Month over Month (MoM) growth), there are also significant declines in other regions (e.g., SUMBAGSEL and EASTERN JABOTABEK show notable decreases in MoM). 
+1. Total revenue for new sales appears to have decreased slightly by -1.17% month over month (MoM). 
 
-2. High Payload Decrease: Across most areas, there is a substantial decrease in the payload (user GB) MoM, with several areas experiencing a decline of more than 40%. Notably, the Total payload MoM figure is down by 40.67%, which suggests a significant decrease in data usage per user across the board. 
+2. The region with the highest revenue from new sales is SUMBAGUT with 5.38 billion (Bn), though it has seen a significant decline of -27.5% MoM. 
 
-3. Increase in ARPU (Average Revenue Per User) for Data: Despite the general downward trend in many metrics, the ARPU Data (K) shows an overall increase MoM by 6.46%. This indicates that, on average, revenue from data users has increased despite the payload decrease. 
+3. The ARPU (Average Revenue Per User) data for all regions combined has decreased by -22.31% MoM. 
 
-4. High Revenue Growth in Prabayar (Prepaid) Segment: The SA Prabayar column, likely referring to sales from prepaid services, shows remarkable MoM revenue growth in several areas and regions. For example, the central section shows an 82.21% increase in this segment, suggesting that the prepaid market is performing well relative to other segments.
+4. The payload per user in GB has significantly decreased overall by -40.57% MoM across all regions.

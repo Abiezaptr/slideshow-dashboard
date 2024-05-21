@@ -1,5 +1,7 @@
-1. Subscriber Metrics: The active users count stands at 7,544,039, with a ratio to CB (possibly meaning combination of both services) at 84%. The Customer Base (CB) is larger at 8,976,625 users, which suggests that not all of the customer base is currently active on the fixed broadband service. 
+1. The dashboard indicates there were 7,544,039 active users with a ratio to CB (customer base) of 84.0% as of 19 May 2024. 
 
-2. Financial Performance Indicators: The average ARPU (Average Revenue Per User) is split into two categories: All (237,244) and RGB (282,296), with both values given in a currency not specified in the image. This information helps in understanding the average revenue generated per user for the service. 
+2. The average revenue per user (ARPU) is shown with ARPU - All being 237,244 and ARPU - RGB at 282,296 for the period ending 30 April 2024. 
 
-3. Sales and Churn Rates: The dashboard reflects that there have been 91,819 sales MTD (Month-to-Date), with an average of 4,833 daily sales. However, there is also a churn (customers leaving) amounting to 12,865 MTD, which implies that customer retention is an issue that needs attention.
+3. Sales for the month to date (MTD) are at 91,819, with an average daily sale of 4,833, and there's a net addition of 78,954 users for the current period. 
+
+4. The bottom section lists regional performance indicating customer base, sales, share, and churn for different regions, with varied percentages in churn APS MTD May-24 such as SUMBAGUT at 50.1% and JATENG-DIY at 65.6%.

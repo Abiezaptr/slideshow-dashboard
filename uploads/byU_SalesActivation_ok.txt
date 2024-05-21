@@ -1,7 +1,7 @@
-1. Overall Performance: The total Absolute Revenue (Absolut Rev) for all areas is 5.65 billion (Bn) with a Month-over-Month Revenue (MoM Rev) increase of 91.20%. However, they are significantly behind their target with a gap of 49.44 Bn, and their daily gap to target is also in the negative, at -3.53 Bn. 
+1. The total Absolute Revenue (Bn) amounts to 5.65 Bn, with AREA 1 contributing the highest at 1.24 Bn. 
 
-2. Individual Area Performance: AREA 1 has shown the highest Month-over-Month Revenue growth at 141.37%, while AREA 4 has the lowest growth at 67.05%. However, all areas are below their target (Target Bn) with AREA 2 having the highest gap to target at -20.57 Bn. 
+2. The Month-over-Month Revenue Change (MoM Rev %) shows a total increase of 91.20%, with AREA 1 seeing the highest growth at 141.37%. 
 
-3. Region-Specific Insights: The region of KALIMANTAN has the highest MoM Revenue growth at 224.39% and a moderate achievement of 20.71% of its target. On the other hand, the region of SUMAGSEL shows a strong performance with a 509.21% MoM Revenue growth. 
+3. The total percentage of sales target achievement (% Ach) is quite low at 10.25%, with all areas falling below 21% achievement. 
 
-4. City Archetype Performance: The city archetype JAVA FORTRESS has achieved more than its target (% Ach stands at 125.37%) and has a positive MoM Revenue increase of 30.20%. In contrast, JAVA SUPREME FORTRESS shows a significant decline in MoM Revenue (-56.31%) and is far below its target, with a gap to target of -56.27 Bn. These insights depict a mixed picture of growth and challenges across different areas and city archetypes within the by.U organization.
+4. There is a significant total Gap to Target (Bn) of -49.44 Bn, indicating underperformance towards sales targets.

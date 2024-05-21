@@ -1,5 +1,7 @@
-1. User Distribution: The Games Users Trend shows that out of a total customer base of 160 million (Mn), 62.6 million are games users, which represents approximately 39.1% of the total. Within this subset of gaming users, there is a further breakdown between those who are only playing games (59.3 million) and those who are paying for games (3.3 million). 
+1. The dashboard shows a trend of game users, with 62.6 million playing or paying, and a monthly customer base of 160 million. 
 
-2. Monthly Trends: When comparing the current month data to the previous month, there is a 5.7% Month on Month (MoM) growth in the mid-month games users, indicating an increasing trend in the number of users engaged in gaming. 
+2. Daily games playing users are shown with a small decline over the course of a month from 30.7 million to 28.1 million. 
 
-3. Games Revenue and Payload: There is a noticeable decrease in both revenue (down 20.3% MoM to 105.3 billion) and data payload for games (down 50.9% MoM to 5.4 Petabytes (PB)). This suggests that while the number of users might be increasing, the revenue generated and the data consumed by gaming is decreasing. 
+3. There is a significant month-over-month decrease in games revenue of 36.5% and games payload by 50.9%. 
+
+4. Among featured games, Roblox has the smallest drop in playing users at 35.4% and a payload decrease of 58.1% month-over-month."
