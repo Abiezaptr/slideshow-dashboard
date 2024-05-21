@@ -74,7 +74,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 p-4 mt-5">
+                                <div class="col-md-4 p-4 mt-4">
                                     <div class="insight-container" style="white-space: pre-line; max-height: 500px; overflow-y: auto;">
                                         <?php
                                         $file_content = file_get_contents($text_file_path);

@@ -101,7 +101,6 @@
             /* Menambahkan ukuran font tombol */
         }
 
-
         .countdown-badge {
             width: 30px;
             height: 30px;
