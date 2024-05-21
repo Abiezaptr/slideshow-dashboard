@@ -33,12 +33,44 @@
                     '/increase \(or ([\-+]?\d+\.\d+%)\)/' => 'increase $1',
                 ];
 
+                // Daftar nama kota dan wilayah di Indonesia dalam huruf kapital semua
+                $region = [
+                    'JAKARTA', 'SURABAYA', 'BANDUNG', 'BEKASI', 'MEDAN', 'TANGERANG', 'DEPOK', 'SEMARANG', 'PALEMBANG', 'MAKASSAR',
+                    'SOUTH TANGERANG', 'BATAM', 'PEKANBARU', 'BOGOR', 'BANDAR LAMPUNG', 'PADANG', 'MALANG', 'DENPASAR', 'SAMARINDA', 'TASIKMALAYA',
+                    'PONTIANAK', 'BANJARMASIN', 'BALIKPAPAN', 'JAMBI', 'CIMAHI', 'SOLO', 'MANADO', 'YOGYAKARTA', 'CILEGON', 'AMBON',
+                    'MATARAM', 'JAYAPURA', 'KENDARI', 'KUPANG', 'PALU', 'TERNATE', 'MANOKWARI', 'SORONG',
+                    'SUMBAGUT', 'SUMBAGTENG', 'WESTERN JABOTABEK', 'CENTRAL JABOTABEK', 'EASTERN JABOTABEK',
+                    'JABAR', 'JATENG-DIY', 'JATIM', 'BALINUSRA', 'KALIMANTAN', 'SULAWESI', 'MALUKU', 'PAPUA', 'PUMA'
+                ];
+
+                // Buat pola regex untuk kota-kota dan wilayah di Indonesia
+                $citiesAndRegionsPattern = '/\b(' . implode('|', array_map('preg_quote', $region)) . ')\b/i';
+
+                // Tambahkan pola untuk nama kota di Indonesia ke dalam array patterns
+                $patterns[$citiesAndRegionsPattern] = '<strong>' . strtoupper('$1') . '</strong>';
+
+                // Buat array dengan nama-nama bulan dalam berbagai format
+                $months = [
+                    'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC',
+                    'JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'
+                ];
+
+                // Buat pola regex untuk nama-nama bulan
+                $monthsPattern = '/\b(' . implode('|', array_map('preg_quote', $months)) . ')\b/i';
+
+                // Tambahkan pola untuk nama bulan ke dalam array patterns
+                $patterns[$monthsPattern] = '<strong>$1</strong>';
+
                 foreach ($patterns as $pattern => $replacement) {
-                    $content = preg_replace($pattern, $replacement, $content);
+                    $content = preg_replace_callback($pattern, function ($matches) {
+                        return '<strong>' . strtoupper($matches[0]) . '</strong>';
+                    }, $content);
                 }
 
                 return $content;
             }
+
+
 
             foreach ($files as $index => $file) {
                 if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) {

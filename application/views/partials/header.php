@@ -78,7 +78,7 @@
 
         #countdown {
             position: absolute;
-            bottom: 20px;
+            bottom: 10px;
             right: 10px;
             font-size: 16px;
             color: maroon;
@@ -115,7 +115,7 @@
         /* Menambahkan gaya untuk informasi urutan slide */
         #slide-info {
             position: absolute;
-            bottom: 20px;
+            bottom: 10px;
             /* Mengatur posisi di pojok bawah halaman */
             left: 30px;
             /* Mengatur posisi di pojok kiri halaman */
@@ -172,13 +172,36 @@
             right: 0;
         }
 
-
         .carousel-item {
             padding: 20px;
         }
 
         .image-container img {
             display: none;
+        }
+
+        .waves {
+            position: absolute;
+            bottom: 10;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            /* Sesuaikan ketinggian gelombang */
+            background-image: linear-gradient(to right, transparent 20%, #c0392b 30%, #c0392b 70%, transparent 80%);
+            /* Sesuaikan warna gelombang */
+            background-size: 100% 20px;
+            /* Sesuaikan ketinggian gelombang */
+            animation: wave-animation 2s infinite linear;
+        }
+
+        @keyframes wave-animation {
+            0% {
+                background-position-x: 0;
+            }
+
+            100% {
+                background-position-x: 100%;
+            }
         }
     </style>
 </head>
