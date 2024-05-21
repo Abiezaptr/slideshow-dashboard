@@ -1,7 +1,7 @@
-1. Revenue projection for May 2024 is 2.19 billion IDR with a month-over-month (MoM) growth rate of -0.7%. 
+1. The projected revenue for May 2024 is 2.19 billion IDR, experiencing a slight month-over-month decrease of 0.7%. 
 
-2. Transaction volume for the same period is 53.65 thousand transactions, reflecting a 13.9% MoM growth. 
+2. Transactions for the same period are reported at 53.65 thousand transactions, with a significant month-over-month growth of 13.9%. 
 
-3. The churn profile shows Lokal as the highest churn reason at 4.02%. 
+3. The year-over-year trend for monthly revenue is negative, showing a 44% decline, while year-over-year transactions grew by 14.7%. 
 
-4. The OTT Video add-on is the highest-growing segment at 44.8%, while Game Voucher shows the highest decline at -62.3%.
+4. The churn profile indicates segments such as IGB and Lokal have the highest churn rates for add-ons.

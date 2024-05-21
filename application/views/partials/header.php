@@ -32,6 +32,7 @@
 
         .insight-container {
             position: relative;
+            font-size: 14px;
         }
 
         .insight-container br {
