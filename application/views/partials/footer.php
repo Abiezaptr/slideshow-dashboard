@@ -141,6 +141,41 @@
     });
 </script>
 
+<script>
+    $(document).ready(function() {
+        var isCarouselPaused = false;
+        var carouselInterval;
+
+        function startCarousel() {
+            carouselInterval = setInterval(function() {
+                if (!isCarouselPaused) {
+                    $('#carouselExampleControls').carousel('next');
+                }
+            }, 5000); // Ganti slide setiap 5 detik
+        }
+
+        function pauseCarousel() {
+            clearInterval(carouselInterval);
+        }
+
+        // Event listener untuk tombol spasi
+        $(document).keydown(function(e) {
+            if (e.keyCode === 32) { // 32 adalah kode tombol spasi
+                isCarouselPaused = !isCarouselPaused;
+                if (isCarouselPaused) {
+                    pauseCarousel(); // Jeda carousel saat spasi ditekan
+                    $('#pauseRunButton').hide(); // Sembunyikan tombol jeda/putar
+                    $('#countdown').hide(); // Sembunyikan countdown
+                } else {
+                    startCarousel(); // Lanjutkan carousel saat spasi ditekan kembali
+                    $('#pauseRunButton').show(); // Tampilkan tombol jeda/putar
+                    $('#countdown').show(); // Tampilkan countdown
+                }
+            }
+        });
+    });
+</script>
+
 </body>
 
 </html>
