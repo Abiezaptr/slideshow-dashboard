@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://192.168.60.67/slideshow/';
-$config['base_url'] = 'https://192.168.252.67/slideshow/';
+$config['base_url'] = 'https://192.168.124.67/slideshow/';
 
 
 $config['index_page'] = '';

@@ -107,10 +107,15 @@
                                         </div>
                                     </div>
 
-                                    <div class="card" style="width: 60vw; height: 75vh; border: 1px solid rgba(204, 204, 204, 0.1); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: rgba(128, 128, 128, 0.1);">
+                                    <!-- <div class="card" style="width: 60vw; height: 75vh; border: 1px solid rgba(204, 204, 204, 0.1); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: rgba(128, 128, 128, 0.1);">
                                         <div class="image-container" style="white-space: pre-line; max-height: 500px; overflow-y: auto;">
                                             <img src="<?= base_url($image_path) ?>" alt="Gambar <?= $index + 1 ?>" class="img-fluid" style="width: 100%; object-fit: cover;">
                                         </div>
+                                    </div> -->
+
+
+                                    <div class="image-container" style="white-space: pre-line; max-height: 500px; overflow-y: auto;">
+                                        <img src="<?= base_url($image_path) ?>" alt="Gambar <?= $index + 1 ?>" class="img-fluid" style="width: 100%; object-fit: cover;">
                                     </div>
                                 </div>
                                 <div class="col-md-4 p-4 mt-4">
@@ -130,6 +135,4 @@
             ?>
         </div>
     </div>
-
-
 </div>
