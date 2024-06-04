@@ -37,7 +37,6 @@
 
         .insight-container br {
             margin-bottom: 8px;
-            /* Atur jarak antar paragraf sesuai kebutuhan */
         }
 
         .loader {
@@ -49,13 +48,10 @@
             animation: spin 2s linear infinite;
             position: absolute;
             top: 80%;
-            /* Posisi loader ke bawah */
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 1000;
-            /* Menempatkan loader di atas semua elemen */
             display: none;
-            /* Defaultnya disembunyikan */
         }
 
         @keyframes spin {
@@ -74,7 +70,6 @@
             top: 70%;
             margin-top: 5px;
             font-size: 15px;
-            /* Spasi antara Not earnings dan Loren ipsum */
         }
 
         #countdown {
@@ -88,19 +83,14 @@
         #pauseRunButtonContainer {
             position: absolute;
             top: 10px;
-            /* Mengatur tombol pause dan run di atas */
             right: 10px;
-            /* Mengatur tombol pause dan run di sisi kanan */
         }
 
         #pauseRunButton {
             width: 40px;
-            /* Atur lebar tombol */
             height: 40px;
-            /* Atur tinggi tombol */
             font-size: 30px;
             color: gray;
-            /* Menambahkan ukuran font tombol */
         }
 
         .countdown-badge {
@@ -114,19 +104,16 @@
             line-height: 30px;
         }
 
-        /* Menambahkan gaya untuk informasi urutan slide */
         #slide-info {
             position: absolute;
             bottom: 10px;
-            /* Mengatur posisi di pojok bawah halaman */
             left: 30px;
-            /* Mengatur posisi di pojok kiri halaman */
             font-size: 14px;
             color: gray;
             font-weight: medium;
+            z-index: 9999;
         }
 
-        /* Mengatur posisi countdown di pojok kanan halaman */
         @media (min-width: 768px) {
             #countdown {
                 left: auto;
@@ -134,19 +121,15 @@
             }
         }
 
-        /* Mengatur posisi tombol next dan prev ke bagian bawah */
         .carousel-control-prev,
         .carousel-control-next {
             top: auto;
             bottom: 20px;
-            /* Ubah sesuai kebutuhan */
         }
 
-        /* Mengatur agar tombol next dan prev berdekatan */
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
             margin-right: 10px;
-            /* Atur jarak antara ikon */
             margin-left: 10px;
         }
 
@@ -174,10 +157,6 @@
             right: 0;
         }
 
-        .carousel-item {
-            padding: 20px;
-        }
-
         .image-container img {
             display: none;
         }
@@ -188,11 +167,8 @@
             left: 0;
             width: 100%;
             height: 10px;
-            /* Sesuaikan ketinggian gelombang */
             background-image: linear-gradient(to right, transparent 20%, #c0392b 30%, #c0392b 70%, transparent 80%);
-            /* Sesuaikan warna gelombang */
             background-size: 100% 20px;
-            /* Sesuaikan ketinggian gelombang */
             animation: wave-animation 2s infinite linear;
         }
 
